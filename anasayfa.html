@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="./anasayfa/style.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="anasayfa.html" class="logo">
+        <img src="./anasayfa/logo.png" alt="logo">
+      </a>
+      <nav class="navbar">
+        <a class="active" y="anasayfa.html">Anasayfa</a>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="menu.html">Menü</a>
+        <a href="urunler.html">Ürünler</a>
+        <a href="yorumlar.html">Yorumlar</a>
+        <div class="dropdown">
+          <a href="#" class="cart-btn">Sepet</a>
+          <div class="dropdown-content">
+              <ul id="sepet-listesi"></ul>
+          </div>
+      </div>
+      </nav>
+    </header>
+
+    <script src="script.js"></script>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>HIZLI TESLİMAT</h3>
+        <p>
+          Hızlı Teslimat: Lezzet kapınızda! Şimdi sipariş verin, mükemmel tatlarınızı anında evinize getirelim!
+        </p>
+        <a href="anasayfa.html" class="btn">Sipariş Ver</a>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading">MENÜMÜZ</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="./anasayfa/menu-1.png" alt="menu">
+            <span class="menu-category">PIZZA</span>
+            <h3>6 Mini Pizza</h3>
+            <div class="price">164.99₺<span>189.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="anasayfa.html" class="btn">sepete ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="./anasayfa/menu-2.png" alt="menu">
+            <span class="menu-category">Burger</span>
+            <h3>5 Mini Burger</h3>
+            <div class="price">129.99₺<span>169.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="anasayfa.html" class="btn">sepete ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="./anasayfa/menu-3.png" alt="menu">
+            <span class="menu-category">PİZZA</span>
+            <h3>2 Karışık Pizza</h3>
+            <div class="price">69.99₺<span> 89.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="anasayfa.html" class="btn">sepete ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="./anasayfa/menu-4.png" alt="menu">
+            <span class="menu-category">Burger</span>
+            <h3>3 Burger</h3>
+            <div class="price">99.99₺<span>119.99₺</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="anasayfa.html" class="btn">sepete ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h1 class="heading">ÜRÜNLERİMİZ</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MİNİ BURGER</span>
+            <a href="anasayfa.html" class="name">Pastırmalı Burger</a>
+          </div>
+          <div class="image">
+            <img src="./anasayfa/product-1.png" alt="">
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">86.00₺</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MİNİ BURGER</span>
+            <a href="anasayfa.html" class="name">Pastırmalı Burger</a>
+          </div>
+          <div class="image">
+            <img src="./anasayfa/product-2.png" alt="">
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">79.00₺</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+          </div>
+        </div>
+        <div class="box dark-bg">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="anasayfa.html" class="name">Pastırmalı Burger</a>
+          </div>
+          <div class="image">
+            <img src="./anasayfa/dark-product.jpg" alt="">
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">79.00₺</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading">HAKKIMIZDA</h1>
+      <div class="row">
+        <div class="image">
+          <img src="./anasayfa/about.jpg" alt="about">
+        </div>
+        <div class="content">
+          <h3>Vazgeçilmez burgerlerimizin arkasındaki sır ne?</h3>
+          <p>
+            Burgerlerimizin sırrı, en taze ve kaliteli malzemelerle hazırlanmalarıdır. Her bir burger, özenle seçilmiş et, taze sebzeler ve özel soslarla hazırlanır. Lezzetimizin sırrı, geleneksel tariflerimizi modern dokunuşlarla birleştirmemizdedir. 
+          </p>
+          <p>
+            Her lokmada sizi tatmin eden bir lezzet deneyimi sunarız. Burgerlerimizi pişirirken kullandığımız yöntemler, lezzetin ve suların muhafazası için özenle seçilmiştir. Bizim sırrımız, her müşterimize mükemmel bir burger deneyimi sunmaktır. Sizi mutlu etmek için her zaman en iyisini yaparız.
+          </p>
+          <a href="anasayfa.html" class="btn">Daha Fazla</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="review" id="review">
+      <h1 class="heading">MÜŞTERİLERİMİZİN<span>YORUMLARI</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./anasayfa/quote.png" alt="quote">
+          <p>
+            Bu restoranda deneyimlediğim lezzetler beni büyüledi. Her lokmada ustalıkla hazırlanmış yemekler, damaklarımda unutulmaz bir iz bıraktı. Sıcak ve samimi atmosferiyle bu mekân, hem lezzet hem de hizmet konusunda standartların üzerine çıkıyor. Burada yediğim muhteşem tatlar, bir sonraki ziyaretimi sabırsızlıkla bekletiyor.
+          </p>
+          <img src="./anasayfa/avatar-1.png" alt="avatar" class="user">
+          <h3>Dilara Sakin</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./anasayfa/quote.png" alt="quote">
+          <p>
+            Sadece yemek yemek için değil, aynı zamanda bir lezzet keşfi için bir araya gelmiş dostlarla unutulmaz anlar yaşamak için ideal bir yer. Her bir tabak, aşçının özgün dokunuşunu taşıyor ve her yudum, lezzetin derinliklerine doğru bir yolculuğa davet ediyor. Burası, lezzetin ve keyfin bir araya geldiği bir cennet.
+          </p>
+          <img src="./anasayfa/avatar-2.png" alt="avatar" class="user">
+          <h3>Mehmet Yılmaz</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./anasayfa/quote.png" alt="quote">
+          <p>
+            Bu restoran, lezzet yolculuğunda bir mola noktası olmaktan çok daha fazlasını sunuyor. Her girişimde, kaliteli malzemelerle hazırlanmış özgün tariflerle karşılaşmak beni her seferinde şaşırtıyor. Bu mekân, damak tadınıza uygun bir deneyim sunmak için her detayı özenle düşünüyor ve beni her ziyaretimde memnun bırakıyor.
+          </p>
+          <img src="./anasayfa/avatar-3.png" alt="avatar" class="user">
+          <h3>Melis Kardelen</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+      <h1 class="heading">iletişime<span>geçin</span></h1>
+      <div class="row">
+        <iframe class="map" src="https://www.google.com.tr/maps/place/Kayseri+%C3%9Cniversitesi+Teknik+Bilimler+Meslek+Y%C3%BCksekokulu/@38.7120836,35.55155,17z/data=!3m1!4b1!4m6!3m5!1s0x152b0d80403c267f:0xf960b806abf5da6e!8m2!3d38.7120794!4d35.5541249!16s%2Fg%2F11clgmyr6p?hl=tr&entry=ttu" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+          <h3>BİZİMLE İLETİŞİME GEÇİN</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="isim">
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="e-posta">
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="telefon numarası">
+          </div>
+          <input type="submit" class="btn" value="iletişime geç">
+        </form>
+      </div>
+    </section>
+
+
+    <section class="footer">
+      <div class="links">
+        <a class="active" href="anasayfa.html">Anasayfa</a>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="menu.html">Menü</a>
+        <a href="urunler.html">Ürünler</a>
+        <a href="yorumlar.html">Yorumlar</a>
+      </div>
+    </section>
+</body></html>
